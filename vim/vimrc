@@ -169,7 +169,7 @@ set go=agimrLtT
 if has("autocmd")
   augroup templates
     autocmd BufNewFile *.h 0r ~/.vim/templates/skeleton.h
-    autocmd BufNewFile *Main.ccp 0r ~/.vim/templates/skeletonMain.cpp
-    autocmd BufNewFile *.ccp 0r ~/.vim/templates/skeleton.cpp
+    autocmd BufNewFile *Main.cpp 0r ~/.vim/templates/skeletonMain.cpp
+    autocmd BufNewFile *[^Main].cpp 0r ~/.vim/templates/skeleton.cpp
   augroup END
 endif
