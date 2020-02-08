@@ -2,20 +2,23 @@
 // cpp course
 // Author: Christian Leininger <info2016frei@gmail.com>
 
-
 #include <iostream>
 #include <thread>
 #include <vector>
 #include <future>
 #include <mutex>
-#include <algorithm>
-#include "./UniqueLock.h"
+#include<algorithm>
+
 
 #ifndef THREAD_H_
 #define THREAD_H_
 
-void divideByNumberLockguard(double num, double denom);
+extern std::mutex mtx;
+extern double result;
+
+void printResult(int denom);
+void divideByNumber(double num, double denom);
+void example();
 
 
 #endif //
-

@@ -4,19 +4,13 @@
 
 
 #include "./LockGuard.h"
+#include "./UniqueLock.h"
 
 
 
-std::mutex mtx;
-double result;
-
-// ______________________________________________________________
-void printResult(int denom) {
-    std::cout << "for denom = " << denom << ", the result is " << result << std::endl;
-}
 
 // ______________________________________________________________
-void divideByNumber(double num, double denom) {
+void divideByNumberLockguard(double num, double denom) {
   try {
     // divide num by denom but throw an exception if division by zero is attempted
     if (denom != 0) {
