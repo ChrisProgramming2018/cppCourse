@@ -1,0 +1,634 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6eefe/fast && /usr/bin/make -f CMakeFiles/cmTC_6eefe.dir/build.make CMakeFiles/cmTC_6eefe.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6eefe.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_6eefe.dir/src.cxx.o -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_6eefe
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eefe.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_6eefe.dir/src.cxx.o  -o cmTC_6eefe 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b83d1/fast && /usr/bin/make -f CMakeFiles/cmTC_b83d1.dir/build.make CMakeFiles/cmTC_b83d1.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b83d1.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_b83d1.dir/src.cxx.o -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_b83d1
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b83d1.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_b83d1.dir/src.cxx.o  -o cmTC_b83d1 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_14d9a/fast && /usr/bin/make -f CMakeFiles/cmTC_14d9a.dir/build.make CMakeFiles/cmTC_14d9a.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14d9a.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_14d9a.dir/src.c.o   -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_14d9a
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14d9a.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_14d9a.dir/src.c.o  -o cmTC_14d9a 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_10ab6/fast && /usr/bin/make -f CMakeFiles/cmTC_10ab6.dir/build.make CMakeFiles/cmTC_10ab6.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10ab6.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override -o CMakeFiles/cmTC_10ab6.dir/src.c.o   -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_10ab6
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10ab6.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_10ab6.dir/src.c.o  -o cmTC_10ab6 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_965ef/fast && /usr/bin/make -f CMakeFiles/cmTC_965ef.dir/build.make CMakeFiles/cmTC_965ef.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_965ef.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_965ef.dir/src.c.o   -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_965ef
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_965ef.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_965ef.dir/src.c.o  -o cmTC_965ef 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fa3dc/fast && /usr/bin/make -f CMakeFiles/cmTC_fa3dc.dir/build.make CMakeFiles/cmTC_fa3dc.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fa3dc.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_fa3dc.dir/src.cxx.o -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_fa3dc
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa3dc.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_fa3dc.dir/src.cxx.o  -o cmTC_fa3dc 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_86440/fast && /usr/bin/make -f CMakeFiles/cmTC_86440.dir/build.make CMakeFiles/cmTC_86440.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86440.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_86440.dir/src.c.o   -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_86440
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86440.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_86440.dir/src.c.o  -o cmTC_86440 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4b8c0/fast && /usr/bin/make -f CMakeFiles/cmTC_4b8c0.dir/build.make CMakeFiles/cmTC_4b8c0.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b8c0.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_4b8c0.dir/src.c.o   -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_4b8c0
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b8c0.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_4b8c0.dir/src.c.o  -o cmTC_4b8c0 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-absolute-value’'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-absolute-value'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_003ad/fast && /usr/bin/make -f CMakeFiles/cmTC_003ad.dir/build.make CMakeFiles/cmTC_003ad.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_003ad.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG -fPIE    -Wno-absolute-value -o CMakeFiles/cmTC_003ad.dir/src.c.o   -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-absolute-value’
+Linking C executable cmTC_003ad
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_003ad.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_003ad.dir/src.c.o  -o cmTC_003ad 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_50645/fast && /usr/bin/make -f CMakeFiles/cmTC_50645.dir/build.make CMakeFiles/cmTC_50645.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50645.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_50645.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.15.5-Linux-x86_64/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_50645
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50645.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_50645.dir/CheckFunctionExists.c.o  -o cmTC_50645 
+CMakeFiles/cmTC_50645.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_50645.dir/build.make:86: recipe for target 'cmTC_50645' failed
+make[1]: *** [cmTC_50645] Error 1
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_50645/fast' failed
+make: *** [cmTC_50645/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b7214/fast && /usr/bin/make -f CMakeFiles/cmTC_b7214.dir/build.make CMakeFiles/cmTC_b7214.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7214.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b7214.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.15.5-Linux-x86_64/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b7214
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7214.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_b7214.dir/CheckFunctionExists.c.o  -o cmTC_b7214 /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
+CMakeFiles/cmTC_b7214.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b7214.dir/build.make:88: recipe for target 'cmTC_b7214' failed
+make[1]: *** [cmTC_b7214] Error 1
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_b7214/fast' failed
+make: *** [cmTC_b7214/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5bb47/fast && /usr/bin/make -f CMakeFiles/cmTC_5bb47.dir/build.make CMakeFiles/cmTC_5bb47.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5bb47.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_5bb47.dir/src.cxx.o -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_5bb47
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bb47.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_5bb47.dir/src.cxx.o  -o cmTC_5bb47 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4af5a/fast && /usr/bin/make -f CMakeFiles/cmTC_4af5a.dir/build.make CMakeFiles/cmTC_4af5a.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4af5a.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_4af5a.dir/src.cxx.o -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_4af5a
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4af5a.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_4af5a.dir/src.cxx.o  -o cmTC_4af5a 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9475a/fast && /usr/bin/make -f CMakeFiles/cmTC_9475a.dir/build.make CMakeFiles/cmTC_9475a.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9475a.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_9475a.dir/src.cxx.o -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_9475a
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9475a.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_9475a.dir/src.cxx.o  -o cmTC_9475a 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_052bd/fast && /usr/bin/make -f CMakeFiles/cmTC_052bd.dir/build.make CMakeFiles/cmTC_052bd.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_052bd.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_052bd.dir/src.cxx.o -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_052bd
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_052bd.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_052bd.dir/src.cxx.o  -o cmTC_052bd 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_584a0/fast && /usr/bin/make -f CMakeFiles/cmTC_584a0.dir/build.make CMakeFiles/cmTC_584a0.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_584a0.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_584a0.dir/src.cxx.o -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_584a0
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_584a0.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_584a0.dir/src.cxx.o  -o cmTC_584a0 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4e7df/fast && /usr/bin/make -f CMakeFiles/cmTC_4e7df.dir/build.make CMakeFiles/cmTC_4e7df.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e7df.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_4e7df.dir/CheckIncludeFile.c.o   -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_4e7df.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4e7df.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4e7df.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4e7df/fast' failed
+make: *** [cmTC_4e7df/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7c525/fast && /usr/bin/make -f CMakeFiles/cmTC_7c525.dir/build.make CMakeFiles/cmTC_7c525.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c525.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG -fPIE    -Wno-unused-private-field -std=c++11 -o CMakeFiles/cmTC_7c525.dir/src.cxx.o -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_7c525
+/opt/cmake-3.15.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c525.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_7c525.dir/src.cxx.o  -o cmTC_7c525 
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c225c/fast && /usr/bin/make -f CMakeFiles/cmTC_c225c.dir/build.make CMakeFiles/cmTC_c225c.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c225c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c225c.dir/CheckSymbolExists.c.o   -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_c225c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c225c.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c225c.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c225c/fast' failed
+make: *** [cmTC_c225c/fast] Error 2
+
+
+File /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d805/fast && /usr/bin/make -f CMakeFiles/cmTC_7d805.dir/build.make CMakeFiles/cmTC_7d805.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d805.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7d805.dir/CheckSymbolExists.c.o   -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_7d805.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7d805.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7d805.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7d805/fast' failed
+make: *** [cmTC_7d805/fast] Error 2
+
+
+File /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d2457/fast && /usr/bin/make -f CMakeFiles/cmTC_d2457.dir/build.make CMakeFiles/cmTC_d2457.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2457.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d2457.dir/CheckSymbolExists.c.o   -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_d2457.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d2457.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d2457.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_d2457/fast' failed
+make: *** [cmTC_d2457/fast] Error 2
+
+
+File /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c34d/fast && /usr/bin/make -f CMakeFiles/cmTC_5c34d.dir/build.make CMakeFiles/cmTC_5c34d.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c34d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5c34d.dir/CheckSymbolExists.c.o   -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_5c34d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5c34d.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5c34d.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_5c34d/fast' failed
+make: *** [cmTC_5c34d/fast] Error 2
+
+
+File /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e5f8d/fast && /usr/bin/make -f CMakeFiles/cmTC_e5f8d.dir/build.make CMakeFiles/cmTC_e5f8d.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5f8d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e5f8d.dir/CheckSymbolExists.c.o   -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_e5f8d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e5f8d.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e5f8d.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_e5f8d/fast' failed
+make: *** [cmTC_e5f8d/fast] Error 2
+
+
+File /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d220c/fast && /usr/bin/make -f CMakeFiles/cmTC_d220c.dir/build.make CMakeFiles/cmTC_d220c.dir/build
+make[1]: Entering directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d220c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d220c.dir/CheckSymbolExists.c.o   -c /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_d220c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d220c.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d220c.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_d220c/fast' failed
+make: *** [cmTC_d220c/fast] Error 2
+
+
+File /home/architect/cpp/OpenCVCPP/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
