@@ -20,4 +20,5 @@ class Vehicle {
  private:
   int _id;
 };
+void showAmountOfCores();
 #endif //
