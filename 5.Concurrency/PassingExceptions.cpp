@@ -26,7 +26,7 @@ int main() {
   std::future<double> ftr = prms.get_future();
 
   // start thread and pass promise as argument
-  double num = 42.0, denom = 0.0;
+  double num = 42.0, denom = 1.0;
   std::thread t(divideByNumber, std::move(prms), num, denom);
 
   // retrieve result within try-catch-block
